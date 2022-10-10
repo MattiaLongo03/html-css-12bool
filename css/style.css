@@ -5,6 +5,7 @@
 }
 
 .container-col-1{
+    height: 50px;
     display: flex;
     justify-content: space-around;
     background-color: #006CFA;
@@ -12,19 +13,57 @@
 }
 
 .container-col-2{
+    height: 50px;
     display: flex;
     background-color: #006CFA;
     color: white;
 }
 
 .container-col-12{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #006CFA;
+    color: white;
+    border: solid 1px white;
+}
+
+.container-col-3{
+    height: 50px;
     display: flex;
     background-color: #006CFA;
     color: white;
 }
 
-.container-col-3{
+.container-col-4{
+    height: 50px;
     display: flex;
     background-color: #006CFA;
     color: white;
+}
+
+.container-col-5-1{
+    height: 50px;
+    display: flex;
+    background-color: #006CFA;
+    color: white;
+}
+.container-col-5{
+    height: 70px;
+    display: flex;
+    background-color: #006CFA;
+    color: white;
+}
+
+.nested-2{
+    background-color: #00E165;
+}
+
+.nested-8{
+    background-color: #00E165;
+}
+
+.nested-6{
+    background-color: #00E165;
 }
