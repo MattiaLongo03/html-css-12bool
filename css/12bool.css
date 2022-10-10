@@ -4,21 +4,12 @@
     box-sizing: border-box;
 }
 
-.container-col-1{
-    display: flex;
-    justify-content: space-around;
-}
-
 .col-1{
     padding-top: 15px;
     width: calc(100%/12);
     height: 50px;
     text-align: center;
     border: solid 1px white;
-}
-
-.container-col-2{
-    display: flex;
 }
 
 .col-2-2{
@@ -44,4 +35,23 @@
     height: 50px;
     border: solid 1px white;
 }
+
+.col-3-8{
+    padding-top: 15px;
+    width: calc(100%/0.25);
+    height: 50px;
+    text-align: center;
+    border: solid 1px white;
+}
+
+
+.col-3-2{
+    padding-top: 15px;
+    width: calc(100%/1);
+    height: 50px;
+    text-align: center;
+    border: solid 1px white;
+}
+
+
 
