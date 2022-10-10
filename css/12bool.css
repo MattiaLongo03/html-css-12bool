@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-col-1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.col-1{
+    padding-top: 15px;
+    width: calc(100%/12);
+    height: 50px;
+    text-align: center;
+    border: solid 1px white;
+}
