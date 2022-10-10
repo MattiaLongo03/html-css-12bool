@@ -43,17 +43,31 @@
     color: white;
 }
 
-.container-col-5-1{
-    height: 50px;
-    display: flex;
-    background-color: #006CFA;
-    color: white;
-}
 .container-col-5{
-    height: 70px;
     display: flex;
     background-color: #006CFA;
     color: white;
+    border: solid 1px white;
+}
+
+.container-col-5-1{
+    display: flex;
+    background-color: #006CFA;
+    color: white;
+    padding: 10px;
+    width: calc(100%/2);
+    gap: 10px;
+    border: solid 1px white;
+}
+
+.container-col-5-2{
+    padding: 10px;
+    width: calc(100%/2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: solid 1px white;
 }
 
 .nested-2{

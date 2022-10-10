@@ -54,6 +54,36 @@
     border: solid 1px white;
 }
 
+.nested-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: calc(100%/3);
+    text-align: center;
+}
+
+.nested-8{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: calc(100%/1);
+    text-align: center;
+}
+
+.nested-6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: calc(100%/0.55);
+    text-align: center;
+}
+
+
+
+
 
 
 
