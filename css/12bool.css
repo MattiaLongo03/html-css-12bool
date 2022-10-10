@@ -37,4 +37,11 @@
     border: solid 1px white;
 }
 
+.container-col-12{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    border: solid 1px white;
+}
 
